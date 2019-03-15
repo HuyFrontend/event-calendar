@@ -1,0 +1,25 @@
+.weekdays {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    background: #FFF;
+    border-bottom: 1px solid #E3E3E3;
+    color: #04506b;
+    padding: 5px 0;
+    strong {
+        flex: 1 0 14.28%;
+        max-width: calc(100% / 7);
+        text-align: center;
+    }
+}
+
+@media (max-width:575px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .text-white {
+        font-size: 1rem;
+    }
+}

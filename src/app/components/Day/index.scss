@@ -1,0 +1,86 @@
+.day {
+    &.today {
+        background: #e7ecec;
+    }
+    &.enabled:hover {
+        .btn-add-new-event {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+    .date {
+        color: #fd7e14;
+    }
+    .btn-add-new-event {
+        position: absolute;
+        bottom: 5px;
+        right: 0;
+        opacity: 0;
+        transition: opacity 500ms;
+        z-index: 1;
+    }
+    .event {
+        cursor: pointer;
+    }
+    .fas {
+        font-size: 38px;
+        color: rgba(0, 0, 0, 0.4); }
+    .fas:hover {
+        color: #000;
+    }
+    &[class*=" first-index-"] {
+        border-left: 1px solid #dee2e6 !important;
+    }
+}
+@media (max-width:575px) {
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
+    .text-white {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .day {
+        min-height: 11.2857vw;
+        max-width: calc(100% / 7);
+        flex: 1 0 14.28%;
+        &.first-index-1 {
+            margin-left: 14.28%;
+        }
+        &.first-index-2 {
+            margin-left: 28.56%;
+        }
+        &.first-index-3 {
+            margin-left: 42.84%;
+        }
+        &.first-index-4 {
+            margin-left: 57.12%;
+        }
+        &.first-index-5 {
+            margin-left: 71.4%;
+        }
+        &.first-index-6 {
+            margin-left: 85.68%;
+        }
+        .btn-add-new-event {
+            bottom: 5px;
+            right: 0;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .day {
+        min-height: 120px;
+        .btn-add-new-event {
+            bottom: 5px;
+            right: 5px;
+        }
+    }
+}

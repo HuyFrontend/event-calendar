@@ -1,0 +1,8 @@
+{
+    "presets": ["env", "react", "es2015"],
+    "plugins": [
+        ["transform-class-properties", { "spec": true }],
+        "syntax-dynamic-import",
+        "transform-object-rest-spread"
+    ]
+}

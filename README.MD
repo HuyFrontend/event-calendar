@@ -1,7 +1,7 @@
 
 # Event Calendar Application
 
-This project was generated with React, Redux and Bootstrap
+This project was generated with React, Redux, Webpack and Bootstrap
 
 Basic features
 

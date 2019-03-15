@@ -9,7 +9,7 @@ Basic features
 
 2. Managed the events on this calendar (CREAT/MODIFY/SORT/DELETE)
 
-3. Built it as a responsive web application that is flexibly compatible to both mobile and desktop web displays, and also handle user's behaviors well those devices.
+3. Built it as a responsive web application that is flexibly compatible to both mobile and desktop web displays, and also handle user's behaviors well on those devices.
 
 ## Environment Setup
 
